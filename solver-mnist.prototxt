@@ -1,0 +1,21 @@
+train_net: "net-mnist-train.prototxt"
+
+max_iter: 10000
+
+base_lr: 0.01
+momentum: 0.9
+weight_decay: 0.0005
+
+lr_policy: "inv"
+gamma: 0.0001
+power: 0.75
+
+#lr_policy: "step"
+#stepsize: 2000
+
+# Set a large number to make it unavailable, Control by Python, display loss, acc every epoch
+display: 999999999	
+# Set a large number to Make it unavailable, Control by Python, Save model every epoch
+snapshot: 999999999	
+
+snapshot_prefix: "./models/"
