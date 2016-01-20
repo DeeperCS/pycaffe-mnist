@@ -1,5 +1,5 @@
 # Using PyCaffe and MemoryData Layer to train mnist
-
+```
 I0120 14:50:17.284659   499 solver.cpp:47] Initializing solver from parameters: 
 train_net: "net-mnist-train.prototxt"
 base_lr: 0.01
@@ -320,3 +320,4 @@ I0120 14:50:17.304620   499 sgd_solver.cpp:106] Iteration 0, lr = 0.01
 [train]: loss:0.00680024245677, saved ./models/iter_10000.caffemodel
 [test]: loss:0.00701264561313, acc:0.998350001276
 training completed
+```
